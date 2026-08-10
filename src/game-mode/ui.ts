@@ -2,7 +2,7 @@ import { captureGameModeRecipe, computeDeviceKey, type PollingRateClient } from 
 import { buildFingerprint } from "./fingerprint";
 import type { DeviceStatus, StatusMessage, UpdateStatusMessage } from "./types";
 import { GameModeClient, type ConnectionState } from "./ws-client";
-import type { MouseStatus } from "../devices/mouse-types";
+import type { MouseStatus } from "@openmouse/protocol/drivers/mouse-types";
 import { RATE_STEPS_HZ, nearestRate, previewRateSlider, rateFromSlider, renderRateSlider } from "../ui/rate-slider";
 import { permissionGraphicFor, type LocalNetworkPermissionState } from "./permission-state";
 import { isWindows } from "./platform";

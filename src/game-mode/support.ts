@@ -1,14 +1,14 @@
-import { AtkHidClient } from "../devices/atk/hid";
-import { FinalmouseHidClient } from "../devices/finalmouse/hid";
-import { LamzuHidClient } from "../devices/lamzu/hid";
-import { PulsarHidClient } from "../devices/pulsar/pulsar-hid";
-import { PulsarProHidClient } from "../devices/pulsar/pulsar-pro-hid";
-import { RazerHidClient } from "../devices/razer/hid";
-import { RazerViperV4ProHidClient } from "../devices/razer/viper-v4-pro-hid";
-import { TeevolutionHidClient } from "../devices/teevolution/hid";
-import { VgnF2HidClient } from "../devices/vgn/hid";
-import { WLMouseHidClient } from "../devices/wlmouse/hid";
-import type { SupportedClient } from "../devices/registry";
+import { AtkHidClient } from "@openmouse/protocol/drivers/atk/hid";
+import { FinalmouseHidClient } from "@openmouse/protocol/drivers/finalmouse/hid";
+import { LamzuHidClient } from "@openmouse/protocol/drivers/lamzu/hid";
+import { PulsarHidClient } from "@openmouse/protocol/drivers/pulsar/pulsar-hid";
+import { PulsarProHidClient } from "@openmouse/protocol/drivers/pulsar/pulsar-pro-hid";
+import { RazerHidClient } from "@openmouse/protocol/drivers/razer/hid";
+import { RazerViperV4ProHidClient } from "@openmouse/protocol/drivers/razer/viper-v4-pro-hid";
+import { TeevolutionHidClient } from "@openmouse/protocol/drivers/teevolution/hid";
+import { VgnF2HidClient } from "@openmouse/protocol/drivers/vgn/hid";
+import { WLMouseHidClient } from "@openmouse/protocol/drivers/wlmouse/hid";
+import type { SupportedClient } from "@openmouse/protocol/drivers/registry";
 
 /**
  * Game Mode records a byte-for-byte transcript of the vendor driver's own
